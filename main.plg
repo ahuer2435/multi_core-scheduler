@@ -1,0 +1,50 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: main - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "G:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP236.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/main.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\资料\个人\新建文件夹\我的算法\blevel_schedule.cpp"
+"E:\资料\个人\新建文件夹\我的算法\cost.cpp"
+"E:\资料\个人\新建文件夹\我的算法\main.cpp"
+"E:\资料\个人\新建文件夹\我的算法\mapping.cpp"
+"E:\资料\个人\新建文件夹\我的算法\nomap_map.cpp"
+"E:\资料\个人\新建文件夹\我的算法\sa.cpp"
+]
+Creating command line "cl.exe @G:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP236.tmp" 
+Creating temporary file "G:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP237.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/main.pdb" /debug /machine:I386 /out:"Debug/main.exe" /pdbtype:sept 
+".\Debug\blevel_schedule.obj"
+".\Debug\cost.obj"
+".\Debug\main.obj"
+".\Debug\mapping.obj"
+".\Debug\nomap_map.obj"
+".\Debug\sa.obj"
+".\Debug\task.obj"
+]
+Creating command line "link.exe @G:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP237.tmp"
+<h3>Output Window</h3>
+Compiling...
+blevel_schedule.cpp
+cost.cpp
+main.cpp
+mapping.cpp
+nomap_map.cpp
+sa.cpp
+e:\资料\个人\新建文件夹\我的算法\sa.cpp(104) : warning C4101: 'simul_speedup' : unreferenced local variable
+e:\资料\个人\新建文件夹\我的算法\sa.cpp(104) : warning C4101: 'simul_map_r' : unreferenced local variable
+Linking...
+
+
+
+<h3>Results</h3>
+main.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
